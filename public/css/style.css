@@ -1,0 +1,94 @@
+.historia{
+    margin-top: 20px;
+}
+.container header{
+margin-top: 20px;
+}
+
+.figure{
+    margin-top: 10px;
+}
+
+.figure img{
+    border-radius: 20px;
+}
+
+.figure figcaption{
+    text-align: center;
+}
+
+header ul{
+    padding: 30px;
+    margin-top: 30px;
+}
+
+header ul li{
+ margin-top: 10px;
+}
+
+article ul{
+    padding: 30px;
+    margin-top: 30px;
+}
+
+article section ul{
+    margin-top: 0;
+}
+
+article ul li{
+ margin-top: 10px;
+
+}
+
+.objetivo{
+    margin-top: 80px;
+}
+
+#escolaridadeh{
+    margin-top: 80px;
+}
+
+#experiencia{
+    margin-top: 80px;
+}
+
+.experiencia{
+    margin-top: 80px;
+}
+
+
+.experiencia section{
+    text-align: center;
+}
+
+.experiencia section img{
+    margin-top: 40px;
+    width: 200px;  
+}
+
+.objetivo header h2{
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.container h2{
+    margin-top: 80px;
+}
+h2{
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.escolaridade:hover{
+    background-color: #ccc;
+}
+.experiencia:hover{
+    background-color: #ccc;
+}
+
+.cursos:hover{
+    background-color: #ccc;
+}
