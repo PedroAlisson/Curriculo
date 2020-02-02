@@ -13,6 +13,7 @@ html, body{
 
 .figure img{
     border-radius: 20px;
+    width: 500px;
 }
 
 ul li{
@@ -33,6 +34,10 @@ h2{
     margin-bottom: 20px;
 }
 
+.dadospessoais header ul{
+    line-height: 3em;
+    text-align: center;
+}
 .escolaridade{
     text-align: center;
     padding: 20px;
@@ -55,7 +60,7 @@ h2{
 
 .experiencia{
     text-align: center;
-    min-height: 400px;
+    min-height: 500px;
     margin-bottom: 20px;
     animation-name: animation; 
     animation-duration: 20s;
