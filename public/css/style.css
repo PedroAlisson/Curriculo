@@ -1,10 +1,12 @@
-.historia{
-    margin-top: 20px;
-}
-.container header{
-margin-top: 20px;
+
+html, body{
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.figure figcaption{
+    text-align: center;
+}
 .figure{
     margin-top: 10px;
 }
@@ -13,82 +15,103 @@ margin-top: 20px;
     border-radius: 20px;
 }
 
-.figure figcaption{
+ul li{
+    list-style: none;
+}
+h2{
+    text-align: center; 
+}
+
+.historia{
+    margin-top: 60px;
+}
+.jumbotron div p{
+    margin-bottom: 40px;
+}
+
+#btn .col a{
+    margin-bottom: 20px;
+}
+
+.escolaridade{
     text-align: center;
-}
-
-header ul{
-    padding: 30px;
-    margin-top: 30px;
-}
-
-header ul li{
- margin-top: 10px;
-}
-
-article ul{
-    padding: 30px;
-    margin-top: 30px;
-}
-
-article section ul{
-    margin-top: 0;
-}
-
-article ul li{
- margin-top: 10px;
-
-}
-
-.objetivo{
-    margin-top: 80px;
-}
-
-#escolaridadeh{
-    margin-top: 80px;
-}
-
-#experiencia{
-    margin-top: 80px;
-}
-
-.experiencia{
-    margin-top: 80px;
-}
-
-
-.experiencia section{
-    text-align: center;
-}
-
-.experiencia section img{
-    margin-top: 40px;
-    width: 200px;  
-}
-
-.objetivo header h2{
-    padding: 30px;
-    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px ;
 }
 
 .container h2{
     margin-top: 80px;
+    margin-bottom: 80px;
 }
-h2{
+
+ #experiencia h2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.experiencia img{
+    border-radius: 20px;
+}
+
+.experiencia{
+    text-align: center;
+    min-height: 400px;
+    margin-bottom: 20px;
+    animation-name: animation; 
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    border-bottom: 20px solid;
+} 
+
+.experiencia section{
+    padding: 20px;
+}
+section img{
+    margin-top: 20px;
+    width: 200px;
+}
+
+section ul{
+    margin-top: 60px;
+}
+
+.cursos{
+    animation-name: animation; 
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    border-bottom: 20px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cursos header{
     text-align: center;
 }
 
-ul li{
-    list-style: none;
+.cursos header h6 i{
+    position: relative;
+   margin-bottom: 40px;
 }
 
 .escolaridade:hover{
     background-color: #ccc;
+    border-radius: 20px solid;
 }
+
 .experiencia:hover{
-    background-color: #ccc;
+    background-color: #ccc; 
 }
 
 .cursos:hover{
     background-color: #ccc;
 }
+
+@keyframes animation{
+
+    0%{ background-color: white; border-radius: 0px;}
+    25%{background-color: red;border-radius: 25px;}
+    50%{background-color: pink;border-radius: 50px;}
+    75%{background-color: orange;border-radius: 75px;}
+    100%{background-color: white; border-radius: 0px;}
+    
+    }
