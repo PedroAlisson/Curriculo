@@ -11,6 +11,16 @@ html, body{
     margin-top: 10px;
 }
 
+p{
+    color: red;
+
+}
+
+.row p{
+    color: black;
+
+}
+
 .figure img{
     border-radius: 20px;
     width: 500px;
