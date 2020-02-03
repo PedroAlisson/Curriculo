@@ -1,5 +1,4 @@
-
-html, body{
+*{
     padding: 0;
     box-sizing: border-box;
 }
@@ -11,14 +10,76 @@ html, body{
     margin-top: 10px;
 }
 
+.historia{
+    text-align: center;
+}
+
+.row h1{
+    text-align: center;
+    
+    position: relative;
+    width: 100%;
+}
+
+.btn_facebook{
+    background-color: #3b5998 ;
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+}
+
+.btn_facebook i, .btn_instagram i , .btn_twitter i , .btn_linkedin i  {
+   color: white;
+}
+
+.btn_instagram{
+    background-color: #3f729b;
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+}
+
+.btn_twitter{
+    background-color: #00acee;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.btn_linkedin{
+    background-color: #0e76a8;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+.btn_facebook:hover{
+    background-color: black
+}
+
+.btn_instagram:hover{
+    background-color: black
+}
+
+.btn_twitter:hover{
+    background-color: black
+}
+
+.btn_linkedin:hover{
+    background-color: black
+}
+
+
 p{
     color: red;
-
 }
 
 .row p{
     color: black;
-
+    text-align: center;
 }
 
 .figure img{
@@ -50,9 +111,13 @@ h2{
 }
 .escolaridade{
     text-align: center;
-    padding: 20px;
     border-radius: 20px ;
 }
+
+.escolaridade ul{
+    line-height: 3em;
+}
+
 
 .container h2{
     margin-top: 80px;
@@ -70,7 +135,7 @@ h2{
 
 .experiencia{
     text-align: center;
-    min-height: 500px;
+    min-height: 450px;
     margin-bottom: 20px;
     animation-name: animation; 
     animation-duration: 20s;
@@ -90,6 +155,11 @@ section ul{
     margin-top: 60px;
 }
 
+section ul li{
+    text-align: center;
+  }
+  
+
 .cursos{
     animation-name: animation; 
     animation-duration: 20s;
@@ -105,8 +175,13 @@ section ul{
 
 .cursos header h6 i{
     position: relative;
-   margin-bottom: 40px;
+   margin-top: 50px;
 }
+
+.cursos header ul li{
+  text-align: center;
+}
+
 
 .escolaridade:hover{
     background-color: #ccc;
