@@ -175,7 +175,7 @@ section ul li{
     border-bottom: 20px solid;
     padding: 20px;
     margin-bottom: 20px;
-    height: 300px;
+    height: 350px;
 }
 
 .cursos header{
@@ -189,6 +189,7 @@ section ul li{
 
 .cursos header ul li{
   text-align: center;
+  padding: 20px;
 }
 
 
