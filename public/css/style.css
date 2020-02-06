@@ -173,9 +173,9 @@ section ul li{
     animation-duration: 20s;
     animation-iteration-count: infinite;
     border-bottom: 20px solid;
-    padding: 20px;
-    margin-bottom: 20px;
-    height: 350px;
+    padding: 40px;
+    margin-bottom: 15px;
+    height: 400px;
 }
 
 .cursos header{
@@ -184,12 +184,12 @@ section ul li{
 
 .cursos header h6 i{
     position: relative;
-   margin-top: 50px;
+   margin-top: 20px;
 }
 
 .cursos header ul li{
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 
