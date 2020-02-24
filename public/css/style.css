@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+main header{
+    margin-top: 10px;
+}
+
 .carousel-caption h5{
     color: white;
 }
@@ -209,10 +213,11 @@ section ul li{
 
 @keyframes animation{
 
-    0%{ background-color: white; border-radius: 0px;}
-    25%{background-color: red;border-radius: 25px;}
-    50%{background-color: pink;border-radius: 50px;}
-    75%{background-color: orange;border-radius: 75px;}
-    100%{background-color: white; border-radius: 0px;}
+    0%{ background-color: white; border-radius: 0px;  border-bottom: 20px solid;}
+    25%{background-color: red;border-radius: 25px;border-bottom: 0px solid;border-right: 20px solid}
+    50%{background-color: pink;border-radius: 50px;border-bottom: 0px solid;border-right: 0px solid;border-top: 20px solid}
+    75%{background-color: orange;border-radius: 75px;border-bottom: 0px solid;border-right: 0px solid;border-bottom: 0px solid;border-left: 20px solid;}
+    100%{background-color: white; border-radius: 0px;border-bottom: 0px solid;border-right: 0px solid;border-bottom: 0px solid;border-left: 0px solid;}
     
-    }
+}
+
