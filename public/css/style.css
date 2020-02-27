@@ -180,7 +180,7 @@ section ul li{
     border-bottom: 20px solid;
     padding: 40px;
     margin-bottom: 15px;
-    height: 350px;
+    height: 360px;
 }
 
 .cursos header{
@@ -189,7 +189,7 @@ section ul li{
 
 .cursos header h6 i{
     position: relative;
-   margin-top: 20px;
+   margin-top: 10px;
 }
 
 .cursos header ul li{
@@ -209,6 +209,20 @@ section ul li{
 
 .cursos:hover{
     background-color: #ccc;
+}
+
+.projects .container article{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.card{
+    margin-top: 100px;
+}
+.card-body{
+    margin-top: 30px;
 }
 
 @keyframes animation{
