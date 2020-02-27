@@ -213,11 +213,11 @@ section ul li{
 
 @keyframes animation{
 
-    0%{ background-color: white; border-radius: 0px;  border-bottom: 20px solid;}
-    25%{background-color: red;border-radius: 25px;border-bottom: 0px solid;border-right: 20px solid}
-    50%{background-color: pink;border-radius: 50px;border-bottom: 0px solid;border-right: 0px solid;border-top: 20px solid}
-    75%{background-color: orange;border-radius: 75px;border-bottom: 0px solid;border-right: 0px solid;border-bottom: 0px solid;border-left: 20px solid;}
-    100%{background-color: white; border-radius: 0px;border-bottom: 0px solid;border-right: 0px solid;border-bottom: 0px solid;border-left: 0px solid;}
+    0%{ background-color: white;}
+    25%{background-color: red;}
+    50%{background-color: pink;}
+    75%{background-color: orange;}
+    100%{background-color: white;}
     
 }
 
