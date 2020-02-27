@@ -214,10 +214,10 @@ section ul li{
 @keyframes animation{
 
     0%{ background-color: white;}
-    25%{background-color: red;}
-    50%{background-color: pink;}
-    75%{background-color: orange;}
-    100%{background-color: white;}
+    25%{background-color: red;border-radius: 25px;}
+    50%{background-color: pink;border-radius: 50px;}
+    75%{background-color: orange;border-radius: 75px;}
+    100%{background-color: white; border-radius: 0px;}
     
 }
 
