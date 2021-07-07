@@ -1,237 +1,245 @@
-*{
-    padding: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  box-sizing: border-box;
 }
 
-main header{
-    margin-top: 10px;
+main header {
+  margin-top: 10px;
 }
 
-.carousel-caption h5{
-    color: white;
+.carousel-caption h5 {
+  color: white;
 }
 
-.figure figcaption{
-    text-align: center;
+.figure figcaption {
+  text-align: center;
 }
-.figure{
-    margin-top: 20px;
-}
-
-.historia{
-    text-align: center;
+.figure {
+  margin-top: 20px;
 }
 
-.row h1{
-    text-align: center;    
-    position: relative;
-    width: 100%;
+.historia {
+  text-align: center;
 }
 
-.row p{
-    margin-top: 40px;
-    padding: 20px;
+.row h1 {
+  text-align: center;
+  position: relative;
+  width: 100%;
 }
 
-.btn_facebook{
-    background-color: #3b5998 ;
-    border-radius: 10px;
-    padding: 20px;
-    display: block;
+.row p {
+  margin-top: 40px;
+  padding: 20px;
 }
 
-.btn_facebook i, .btn_instagram i , .btn_twitter i , .btn_linkedin i  {
-   color: white;
+.btn_facebook {
+  background-color: #3b5998;
+  border-radius: 10px;
+  padding: 20px;
+  display: block;
 }
 
-.btn_instagram{
-    background-color: #3f729b;
-    border-radius: 10px;
-    padding: 20px;
-    display: block;
+.btn_facebook i,
+.btn_instagram i,
+.btn_twitter i,
+.btn_linkedin i {
+  color: white;
 }
 
-.btn_twitter{
-    background-color: #00acee;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    display: block;
+.btn_instagram {
+  background-color: #3f729b;
+  border-radius: 10px;
+  padding: 20px;
+  display: block;
 }
 
-.btn_linkedin{
-    background-color: #0e76a8;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    display: block;
+.btn_twitter {
+  background-color: #00acee;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: block;
 }
 
-
-.btn_facebook:hover{
-    background-color: black
+.btn_linkedin {
+  background-color: #0e76a8;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: block;
 }
 
-.btn_instagram:hover{
-    background-color: black
+.btn_facebook:hover {
+  background-color: black;
 }
 
-.btn_twitter:hover{
-    background-color: black
+.btn_instagram:hover {
+  background-color: black;
 }
 
-.btn_linkedin:hover{
-    background-color: black
+.btn_twitter:hover {
+  background-color: black;
 }
 
-
-p{
-    color: red;
+.btn_linkedin:hover {
+  background-color: black;
 }
 
-.row p{
-    color: black;
-    text-align: center;
+p {
+  color: red;
 }
 
-.figure img{
-    border-radius: 20px;
-    width: 500px;
+.row p {
+  color: black;
+  text-align: center;
 }
 
-ul li{
-    list-style: none;
-}
-h2{
-    text-align: center; 
+.figure img {
+  border-radius: 20px;
+  width: 500px;
 }
 
-.historia{
-    margin-top: 60px;
+ul li {
+  list-style: none;
 }
-.jumbotron div p{
-    margin-bottom: 40px;
-}
-
-#btn .col a{
-    margin-bottom: 20px;
+h2 {
+  text-align: center;
 }
 
-.dadospessoais header ul{
-    line-height: 3em;
-    text-align: center;
+.historia {
+  margin-top: 60px;
 }
-.escolaridade{
-    text-align: center;
-    padding: 10px;
-    border-radius: 20px ;
+.jumbotron div p {
+  margin-bottom: 40px;
 }
 
-.escolaridade ul{
-    line-height: 3em;
+#btn .col a {
+  margin-bottom: 20px;
 }
 
-
-.container h2{
-    margin-top: 80px;
-    margin-bottom: 80px;
+.dadospessoais header ul {
+  line-height: 3em;
+  text-align: center;
+}
+.escolaridade {
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
 }
 
- #experiencia h2{
-    margin-top: 80px;
-    margin-bottom: 80px;
+.escolaridade ul {
+  line-height: 3em;
 }
 
-.experiencia img{
-    border-radius: 20px;
+.container h2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
-.experiencia{
-    text-align: center;
-    min-height: 450px;
-    margin-bottom: 20px;
-    animation-name: animation; 
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    border-bottom: 20px solid;
-} 
-
-.experiencia section{
-    padding: 20px;
-}
-section img{
-    margin-top: 20px;
-    width: 200px;
+#experiencia h2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
-section ul{
-    margin-top: 60px;
+.experiencia img {
+  border-radius: 20px;
 }
 
-section ul li{
-    text-align: center;
-  }
-  
-
-.cursos{
-    animation-name: animation; 
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    border-bottom: 20px solid;
-    padding: 40px;
-    margin-bottom: 15px;
-    height: 360px;
+.experiencia {
+  text-align: center;
+  min-height: 450px;
+  margin-bottom: 20px;
+  animation-name: animation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  border-bottom: 20px solid;
 }
 
-.cursos header{
-    text-align: center;
+.experiencia section {
+  padding: 20px;
+}
+section img {
+  margin-top: 20px;
+  width: 200px;
 }
 
-.cursos header h6 i{
-    position: relative;
-   margin-top: 10px;
+section ul {
+  margin-top: 60px;
 }
 
-.cursos header ul li{
+section ul li {
+  text-align: center;
+}
+
+.cursos {
+  animation-name: animation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  border-bottom: 20px solid;
+  padding: 40px;
+  margin-bottom: 15px;
+  height: 360px;
+}
+
+.cursos header {
+  text-align: center;
+}
+
+.cursos header h6 i {
+  position: relative;
+  margin-top: 10px;
+}
+
+.cursos header ul li {
   text-align: center;
   padding: 10px;
 }
 
-
-.escolaridade:hover{
-    background-color: #ccc;
-    border-radius: 20px solid;
+.escolaridade:hover {
+  background-color: #ccc;
+  border-radius: 20px solid;
 }
 
-.experiencia:hover{
-    background-color: #ccc; 
+.experiencia:hover {
+  background-color: #ccc;
 }
 
-.cursos:hover{
-    background-color: #ccc;
+.cursos:hover {
+  background-color: #ccc;
 }
 
-.projects .container article{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
+.projects .container article {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.card{
-    margin-top: 100px;
+.card {
+  margin-top: 100px;
 }
-.card-body{
-    margin-top: 30px;
-}
-
-@keyframes animation{
-
-    0%{ background-color: white;}
-    25%{background-color: red;border-radius: 25px;}
-    50%{background-color: pink;border-radius: 50px;}
-    75%{background-color: orange;border-radius: 75px;}
-    100%{background-color: white; border-radius: 0px;}
-    
+.card-body {
+  margin-top: 30px;
 }
 
+@keyframes animation {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: red;
+    border-radius: 25px;
+  }
+  50% {
+    background-color: pink;
+    border-radius: 50px;
+  }
+  75% {
+    background-color: orange;
+    border-radius: 75px;
+  }
+  100% {
+    background-color: white;
+    border-radius: 0px;
+  }
+}
