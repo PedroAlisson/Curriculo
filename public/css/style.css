@@ -227,15 +227,15 @@ section ul li {
     background-color: white;
   }
   25% {
-    background-color: red;
+    background-color: white;
     border-radius: 25px;
   }
   50% {
-    background-color: pink;
+    background-color: gray;
     border-radius: 50px;
   }
   75% {
-    background-color: orange;
+    background-color: gray;
     border-radius: 75px;
   }
   100% {
